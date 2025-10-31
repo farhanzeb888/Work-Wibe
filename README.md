@@ -16,19 +16,19 @@ Work-Wibe is a sleek job-portal website that allows users to browse and search f
 - [Contact](#Contact)
 
 ## Screenshot
-## 1. Home Page
+1. Home Page
 ![Screenshot_31-10-2025_10811_127 0 0 1](https://github.com/user-attachments/assets/6ef65a41-660b-45c6-b32d-cb8e285eee25)
-## 2. Filter
+2. Filter
 <img width="1883" height="813" alt="image" src="https://github.com/user-attachments/assets/573368a1-0a6b-406b-a664-d6d3db67ddbf" />
-## 3. Browse Jobs
+3. Browse Jobs
 ![Screenshot_31-10-2025_10109_127 0 0 1](https://github.com/user-attachments/assets/a1d1939c-b7bb-4ad3-a742-e8821de5b32c)
-## 4. Search Jobs
+4. Search Jobs
 ![Screenshot_31-10-2025_101041_127 0 0 1](https://github.com/user-attachments/assets/8c74bf52-2170-4620-9657-13cfe6f6df8e)
-## 5. Jobs Details
+5. Jobs Details
 ![Screenshot_31-10-2025_101019_127 0 0 1](https://github.com/user-attachments/assets/c2ff9257-232e-46cc-9bdf-5a109cabf231)
-## 6. Contact Form
+6. Contact Form
 ![Screenshot_31-10-2025_101151_127 0 0 1](https://github.com/user-attachments/assets/d2af8ae5-9c31-47ba-9145-388637fd5838)
-## 7. Contact Successfully
+7. Contact Successfully
 ![Screenshot_31-10-2025_10124_web3forms com](https://github.com/user-attachments/assets/a21004a8-cd1b-4e3f-9b3c-7bdbeef80bf5)
 
 
