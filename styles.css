@@ -1,0 +1,351 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Navbar*/
+header {
+  background-color: #055e2a;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 999;
+}
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+.logo {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  gap: 6px;
+  display: flex;
+  align-items: center;
+}
+.logo span {
+  color: #c2f0a4;
+}
+#menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+#menu li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+#bar {
+  color: white;
+  display: none;
+}
+/* Hero Section */
+.hero {
+  background-color: #ffffff;
+}
+.hero-box {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  align-items: center;
+}
+.h-left {
+  width: 50%;
+  color: black;
+}
+.h-left p {
+  padding: 1.5rem 0;
+}
+.search {
+  position: relative;
+}
+.search input {
+  background-color: #e7e7e7;
+  width: 100%;
+  height: 3rem;
+  border-radius: 35px;
+  padding: 0 20px;
+  font-size: 1rem;
+  outline: none;
+  border: none;
+}
+.search a {
+  position: absolute;
+  top: 6px;
+  right: 20px;
+}
+.h-right {
+  position: relative;
+  height: 500px;
+}
+.illustration-bg img {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+}
+.profile-card {
+  position: absolute;
+  top: 50px;
+  right: 240px;
+  width: 180px;
+  height: 80px;
+  background: #ffffff;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  z-index: 2;
+}
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(135deg, #055e2a 0%, #055e2a 100%);
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-weight: bold;
+}
+.profile-info h3 {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+.profile-info p {
+  font-size: 11px;
+  color: #999;
+}
+.rating {
+  color: #fdb44b;
+  font-size: 12px;
+}
+.category-tag {
+  position: absolute;
+  bottom: 40px;
+  right: 100px;
+  height: 60px;
+  width: 200px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none;
+  border-radius: 1rem;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.category-tag h4 {
+  font-size: 1rem;
+  margin: 0 0 6px 0;
+}
+.category-tag span {
+  color: #055e2a;
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.help-icon {
+  position: absolute;
+  top: 80px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  background: #055e2a;
+  border-radius: 48% 52% 46% 54% / 71% 25% 75% 29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.help-icon:hover {
+  transform: scale(1.1);
+}
+
+.developer-icon {
+  position: absolute;
+  bottom: 200px;
+  right: 70px;
+  width: 40px;
+  height: 40px;
+  background: #055e2a;
+  border-radius: 48% 52% 46% 54% / 71% 25% 75% 29%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.developer-icon:hover {
+  transform: scale(1.1);
+}
+/* job section */
+.features .fe-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin-bottom: 3rem;
+}
+.features .fe-box i {
+  margin-top: 2rem;
+  font-size: 2rem;
+  padding: 0 0 20px 30px;
+}
+.features .fe-box i:hover {
+  color: #055e2a;
+}
+.features .fe-box div {
+  width: 200px;
+}
+/* job list section */
+.jobs .job-id {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+}
+.jobs .job-id li {
+  padding: 15px 30px;
+  cursor: pointer;
+  color: black;
+}
+.jobs .job-id li.active {
+  background-color: #055e2a;
+  color: white;
+}
+.jobs-container li {
+  list-style: none;
+}
+.jobs-container img {
+  width: 40px;
+  height: 40px;
+}
+.jobs .jlist {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid #ccc;
+  align-items: center;
+  justify-items: start;
+  cursor: pointer;
+  color: #000;
+  padding: 1rem 2rem;
+}
+.jobs .jlist:hover {
+  background: #f4f4f4;
+}
+.jobs .jlist.delete {
+  display: none;
+}
+
+/* trust box */
+.trust {
+  padding-top: 2rem;
+}
+.t-box {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.t-box img {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  margin: 1rem 1rem 1rem 0;
+}
+/* team section */
+.team {
+  padding-top: 2rem;
+}
+.team-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.f1-box img {
+  border-radius: 50px;
+  margin-bottom: 1rem;
+}
+.skill {
+  padding: 2rem 0;
+}
+.team-container {
+  padding-bottom: 30px;
+}
+.team-container .f1-box {
+  border: 1px solid #ccc;
+  width: 280px;
+  padding: 2rem 0;
+  border-radius: 20px;
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/*footer section*/
+footer {
+  background-color: #055e2a;
+  color: #ffffff;
+  padding: 4rem 0;
+}
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+.social-icons p {
+  margin-right: auto;
+}
+.social-icons a {
+  color: white;
+  font-size: 2rem;
+  padding: 0 1rem;
+  text-decoration: none;
+}
+.social-icons a:hover {
+  color: #c2f0a4;
+}
+.bottom {
+  padding-top: 2rem;
+  text-align: start;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.bottom div {
+  display: flex;
+  flex-direction: column;
+}
+.bottom a {
+  color: white;
+  text-decoration: none;
+  line-height: 35px;
+  font-size: 1rem;
+}

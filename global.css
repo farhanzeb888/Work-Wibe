@@ -1,0 +1,36 @@
+/*Global Styles*/
+#w-btn {
+  margin-left: 40px;
+  background-color: white;
+  color: #055e2a;
+  padding: 9px 30px;
+  border-radius: 20px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  box-shadow: none;
+  border: none;
+}
+#g-btn{
+    text-decoration: none;
+    background-color: #055e2a;
+    color: whitesmoke;
+    padding: 9px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.obj-width {
+  max-width: 90%;
+  margin: auto;
+}
+.extra-space{
+  padding-top: 5rem;
+}
+.key{
+  font-size: 0.8rem;
+  background-color: #c2f0a4;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+/* .sec-space{
+  margin-top: 2rem;
+} */

@@ -1,0 +1,32 @@
+/*contact */
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+.contact-image {
+  width: 50%;
+}
+.contact-image img {
+  clip-path: inset(6% 15% 7% 10%);
+  object-fit: cover;
+}
+.contact form {
+  max-width: 400px;
+}
+.contact label {
+  font-weight: 500;
+}
+.contact input,
+.contact textarea {
+  width: 100%;
+  margin: 0.5rem 0 1rem 0;
+  border: 1px solid #055e2a;
+  box-shadow: none;
+  outline: none;
+  padding: 0.8rem 0.5rem;
+  font-size: 1.1rem;
+}
+.map{
+  margin-bottom: 1rem;
+}
