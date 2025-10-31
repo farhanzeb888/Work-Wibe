@@ -5,7 +5,7 @@
 Work-Wibe is a sleek job-portal website that allows users to browse and search for jobs, explore company listings, and view job details — all within a clean, user-friendly interface.
 ## ✏️ Table of Contents  
 - [Screenshot](#Screenshot) 
-- [Features](#features)  
+- [Features](#Features)  
 - [Tech Stack](#tech-stack)  
 - [Getting Started](#getting-started)  
 - [Usage](#usage)  
@@ -24,7 +24,7 @@ Work-Wibe is a sleek job-portal website that allows users to browse and search f
 ![Screenshot_31-10-2025_10124_web3forms com](https://github.com/user-attachments/assets/a21004a8-cd1b-4e3f-9b3c-7bdbeef80bf5)
 
 
-## 🎯 Features  
+## Features  
 - Responsive design: works on desktop, tablet & mobile  
 - Job search & filter functionality  
 - Company listings & profiles  
