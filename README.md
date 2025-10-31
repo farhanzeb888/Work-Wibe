@@ -3,24 +3,32 @@
 
 ## 🚀 Project Overview  
 Work-Wibe is a sleek job-portal website that allows users to browse and search for jobs, explore company listings, and view job details — all within a clean, user-friendly interface.
-## ✏️ Table of Contents  
-- [Screenshot](#Screenshot) 
-- [Features](#Features)  
-- [Tech Stack](#tech-stack)  
-- [Getting Started](#getting-started)  
-- [Usage](#usage)  
-- [Project Structure](#project-structure)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)
+## ✏️ Table of Contents 
+- [Screenshot](#Screenshot)
+- [Features](#Features)
+- [Tech Stack](#Tech-stack)
+- [Getting Started](#Getting-started)
+- [Usage](#Usage)  
+- [Project Structure](#Project-structure)  
+- [Contributing](#Contributing)
+- [Installation](#Installation)
+- [License](#License)  
+- [Contact](#Contact)
 
 ## Screenshot
+## 1. Home Page
 ![Screenshot_31-10-2025_10811_127 0 0 1](https://github.com/user-attachments/assets/6ef65a41-660b-45c6-b32d-cb8e285eee25)
+## 2. Filter
 <img width="1883" height="813" alt="image" src="https://github.com/user-attachments/assets/573368a1-0a6b-406b-a664-d6d3db67ddbf" />
+## 3. Browse Jobs
 ![Screenshot_31-10-2025_10109_127 0 0 1](https://github.com/user-attachments/assets/a1d1939c-b7bb-4ad3-a742-e8821de5b32c)
+## 4. Search Jobs
 ![Screenshot_31-10-2025_101041_127 0 0 1](https://github.com/user-attachments/assets/8c74bf52-2170-4620-9657-13cfe6f6df8e)
+## 5. Jobs Details
 ![Screenshot_31-10-2025_101019_127 0 0 1](https://github.com/user-attachments/assets/c2ff9257-232e-46cc-9bdf-5a109cabf231)
+## 6. Contact Form
 ![Screenshot_31-10-2025_101151_127 0 0 1](https://github.com/user-attachments/assets/d2af8ae5-9c31-47ba-9145-388637fd5838)
+## 7. Contact Successfully
 ![Screenshot_31-10-2025_10124_web3forms com](https://github.com/user-attachments/assets/a21004a8-cd1b-4e3f-9b3c-7bdbeef80bf5)
 
 
@@ -31,18 +39,18 @@ Work-Wibe is a sleek job-portal website that allows users to browse and search f
 - Detailed job view pages  
 - Clean UI/UX with intuitive navigation  
 
-## 🧰 Tech Stack  
+## Tech-stack 
 - HTML5  
 - CSS3 (with responsive layout)  
 - JavaScript (vanilla)  
 - [Optional: any libraries/frameworks if used → eg. jQuery, Bootstrap]  
 
-## 🏁 Getting Started  
+## Getting-Started  
 ### Prerequisites  
 - A modern web browser (Chrome, Firefox, Safari, Edge)  
 - (Optional) A local HTTP server if you want to serve pages via localhost  
 
-## 🗂 Project Structure
+## Project-Structure
 Work-Wibe/
 │
 ├── assets/              # images, icons, logos  
@@ -56,7 +64,7 @@ Work-Wibe/
 ├── job.js               # job-specific JS logic  
 └── toggle.js            # mobile menu toggle JS  
 
-🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -82,12 +90,12 @@ cd Work-Wibe
 
 # Open index.html in your browser
 -----
-## 📄 License
+## License
 
 This project is licensed under the MIT License
  (you can adjust if using a different license).
 
-## 📬 Contact
+## Contact
 
 Developed by Farhan (@farhanzeb888
 )
